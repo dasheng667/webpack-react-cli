@@ -1,6 +1,7 @@
-# react-demo
+# webpack-react-cli
 
-> A react.js project
+> A react.js project  
+> webpack react 脚手架
 
 ## Build Setup
 
