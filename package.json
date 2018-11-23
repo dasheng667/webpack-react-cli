@@ -1,7 +1,7 @@
 {
   "name": "demo1",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A React.js webpack project",
   "author": "qinghao <qiqinghao@163.com>",
   "private": true,
   "scripts": {
@@ -13,7 +13,9 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1"
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -24,6 +26,7 @@
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-preset-env": "^1.3.2",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
