@@ -15,11 +15,12 @@ class App extends React.Component {
   
     render() {
         console.log(this.props);
-        let {add, del} = this.props
+        let { add, del, doubleAsync } = this.props
         return (
             <div>
                 <input type="text" ref={inp => this.inp = inp}/>
                 <button onClick={() => add(this.inp.value)}>添加</button>
+                <button onClick={() => doubleAsync(this.inp.value)}>异步添加</button>
                 <br/>
                 <ul>
                     {
